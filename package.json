@@ -1,8 +1,9 @@
 {
-  "name": "practice-tail",
-  "private": true,
+  "name": "coffee-shop-1",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://yami4286.github.io/Coffee-Shop-1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
