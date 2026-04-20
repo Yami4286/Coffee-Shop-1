@@ -7,21 +7,21 @@ function Story() {
     id: 1,
     name: "The Barista",
     relation: "Son",
-    image: Son , // Update with your actual path
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR61qQF-swSbjsxK1VThRikS3xNujsIsGNJqQ&snpo" , // Update with your actual path
     description: "My son, the barista—I'm very proud of him. He truly makes the customers happy with every cup he serves."
   },
   {
     id: 2,
     name: "The Chef",
     relation: "Son",
-    image: Son , // Update with your actual path
+    image: "https://img.freepik.com/free-photo/young-man-with-charming-smile-blue-eyes-posing_176420-15602.jpg?semt=ais_hybrid&w=740&q=80" , // Update with your actual path
     description: "My other son, and I'm really proud of him too. He has become the best chef in town, bringing incredible flavor to our kitchen."
   },
   {
     id: 3,
     name: "The Owner",
     relation: "Father",
-    image:  Me, // Update with your actual path
+    image:  "https://img.freepik.com/free-photo/portrait-wise-person_52683-100915.jpg?semt=ais_hybrid&w=740&q=80", // Update with your actual path
     description: "As the father and owner, I've seen exactly how far our business has come. It’s been an incredible journey for our family."
   }
 ];
