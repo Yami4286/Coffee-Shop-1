@@ -1,5 +1,5 @@
 {
-  "name": "coffee-shop-1",
+  "base": "coffee-shop-1",
   "private": false,
   "version": "0.0.0",
   "type": "module",
