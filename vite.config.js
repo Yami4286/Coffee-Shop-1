@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // 2. Add this to the array
   ],
+  base:"/Coffee-Shop-1",
 })
