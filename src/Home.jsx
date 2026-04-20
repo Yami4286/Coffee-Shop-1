@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Home() {
 
@@ -104,11 +105,16 @@ function Home() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-white mt-6">
 
                             <button className="bg-amber-400 text-black px-6 py-2 rounded-3xl hover:bg-amber-600 hover:shadow-xl transition">
-                                Explore Menu
+                             
+                            <Link to="/menu" >
+                            Explore Menu
+                        </Link>
                             </button>
 
                             <button className="border-2 border-amber-400 px-6 py-2 rounded-3xl hover:bg-amber-700 transition">
-                                Our Story
+                              <Link to="/story" >
+                            Our Story
+                        </Link>
                             </button>
 
                         </div>

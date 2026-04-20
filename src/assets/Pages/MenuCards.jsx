@@ -14,14 +14,7 @@ function MenuCards({ filterType, searchTerm , addToCart}) {
         { id: 8, name: "Mocha Dream", category: "coffee", price: "$5.25", image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=500", description: "Rich dark chocolate coffee blend.", ingredients: ["Espresso", "Dark Chocolate", "Milk", "Whipped Cream"] }
     ];
 
-    // We set the state to whatever the prop input is
-    const [activeCategory, setActiveCategory] = useState(filterType);
-
-    // This ensures that if the prop changes (e.g., from a Navbar click), 
-    // the menu updates immediately.
-    useEffect(() => {
-        setActiveCategory(filterType);
-    }, [filterType]);
+    
 
     // The Filtering Logic
     const filteredItems = menuItems.filter((item) => {
